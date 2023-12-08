@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 328.03 328.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #00a8e9;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-11, .cls-5, .cls-12 {
+        fill: #fff;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        font-family: Rockwell, Rockwell;
+      }
+
+      .cls-8, .cls-9, .cls-11 {
+        font-size: 24.59px;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-13 {
+        stroke-width: 5px;
+      }
+
+      .cls-13, .cls-14 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        opacity: .2;
+      }
+
+      .cls-4 {
+        fill: #161428;
+      }
+
+      .cls-10 {
+        font-size: 24.59px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-12 {
+        font-size: 24.59px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-14 {
+        stroke-width: 4px;
+      }
+
+      .cls-7 {
+        fill: url(#Steel_Radial);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="165.57" cy="164.16" fx="165.57" fy="164.16" r="150.33" gradientTransform="translate(-1.18 .23)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#22202c" stop-opacity="0"/>
+      <stop offset="1" stop-color="#04020e"/>
+    </radialGradient>
+    <radialGradient id="Steel_Radial" data-name="Steel Radial" cx="164.02" cy="164.02" fx="164.02" fy="164.02" r="151.07" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e2df"/>
+      <stop offset="0" stop-color="#f1efed"/>
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".13" stop-color="#f0f0f0"/>
+      <stop offset=".37" stop-color="#c9cacb"/>
+      <stop offset=".52" stop-color="#adaeb0"/>
+      <stop offset=".6" stop-color="#a3a5a7"/>
+      <stop offset=".74" stop-color="#898d8f"/>
+      <stop offset=".91" stop-color="#5e6669"/>
+      <stop offset="1" stop-color="#465053"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="164.02" y1="328.03" x2="164.02" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e2df"/>
+      <stop offset="0" stop-color="#d6d6d6"/>
+      <stop offset="0" stop-color="#d1d3d4"/>
+      <stop offset=".09" stop-color="#b6b7b8"/>
+      <stop offset=".18" stop-color="#999"/>
+      <stop offset=".26" stop-color="#adaeae"/>
+      <stop offset=".36" stop-color="#d1d3d4"/>
+      <stop offset=".51" stop-color="#858688"/>
+      <stop offset=".6" stop-color="#58595b"/>
+      <stop offset=".64" stop-color="#636466"/>
+      <stop offset=".76" stop-color="#808285"/>
+      <stop offset=".78" stop-color="#a1a3a5"/>
+      <stop offset=".8" stop-color="#c3c4c5"/>
+      <stop offset=".83" stop-color="#dddede"/>
+      <stop offset=".85" stop-color="#f0f0f0"/>
+      <stop offset=".87" stop-color="#fbfbfb"/>
+      <stop offset=".9" stop-color="#fff"/>
+      <stop offset=".91" stop-color="#eaeaeb"/>
+      <stop offset=".93" stop-color="#d0d1d3"/>
+      <stop offset=".96" stop-color="#bdbfc1"/>
+      <stop offset=".98" stop-color="#b2b4b7"/>
+      <stop offset="1" stop-color="#afb1b4"/>
+    </linearGradient>
+  </defs>
+  <g id="Voltage">
+    <g id="Text_icon" data-name="Text &amp;amp; icon">
+      <g id="Face_front_w_glow" data-name="Face front w/glow">
+        <circle class="cls-4" cx="164.02" cy="164.02" r="150"/>
+        <circle class="cls-3" cx="164.02" cy="164.02" r="150"/>
+      </g>
+      <circle id="Face_inner_shade" data-name="Face inner shade" class="cls-6" cx="164.02" cy="164.02" r="150"/>
+      <g id="Gauge_bezel_inner_" data-name="Gauge bezel (inner)">
+        <path class="cls-7" d="m164.02,17.95c80.67,0,146.07,65.4,146.07,146.07,0,80.67-65.4,146.07-146.07,146.07-80.67,0-146.07-65.4-146.07-146.07,0-80.67,65.4-146.07,146.07-146.07m0-5s0,0,0,0h0,0c-40.35,0-78.29,15.71-106.82,44.25C28.66,85.73,12.95,123.67,12.95,164.02c0,40.35,15.71,78.28,44.25,106.82,28.53,28.53,66.47,44.25,106.82,44.25h0s0,0,0,0c40.35,0,78.29-15.71,106.82-44.25,28.53-28.53,44.25-66.47,44.25-106.82,0-40.35-15.71-78.28-44.25-106.82-28.53-28.53-66.47-44.25-106.82-44.25h0Z"/>
+      </g>
+      <g id="Gauge_bezel_outer_" data-name="Gauge bezel (outer)">
+        <path class="cls-1" d="m164.02,15c82.3,0,149.02,66.72,149.02,149.02,0,82.3-66.72,149.02-149.02,149.02-82.3,0-149.02-66.72-149.02-149.02,0-82.3,66.72-149.02,149.02-149.02m0-15s0,0,0,0h0c-22.14,0-43.62,4.34-63.85,12.9-19.53,8.26-37.07,20.09-52.13,35.14-15.06,15.06-26.88,32.6-35.14,52.13C4.34,120.4,0,141.88,0,164.02s4.34,43.61,12.9,63.85c8.26,19.53,20.09,37.07,35.15,52.13,15.06,15.06,32.6,26.88,52.13,35.14,20.23,8.56,41.71,12.9,63.84,12.9h0s0,0,0,0c22.14,0,43.62-4.34,63.85-12.9,19.53-8.26,37.07-20.09,52.13-35.14,15.06-15.06,26.88-32.6,35.14-52.13,8.56-20.23,12.9-41.71,12.9-63.85s-4.34-43.61-12.9-63.85c-8.26-19.53-20.09-37.07-35.15-52.13s-32.6-26.88-52.13-35.14C207.63,4.34,186.15,0,164.02,0h0Z"/>
+      </g>
+      <rect id="Major_tick" data-name="Major tick" class="cls-2" x="178.8" y="32.09" width="25.45" height="4.92" transform="translate(117.91 214.7) rotate(-78)"/>
+      <rect id="Major_tick-2" data-name="Major tick" class="cls-2" x="229.05" y="54.47" width="25.45" height="4.92" transform="translate(53.61 219.07) rotate(-54)"/>
+      <rect id="Major_tick-3" data-name="Major tick" class="cls-2" x="265.86" y="95.35" width="25.45" height="4.92" transform="translate(-11.58 152.4) rotate(-30)"/>
+      <rect id="Major_tick-4" data-name="Major tick" class="cls-2" x="46.99" y="85.08" width="4.92" height="25.45" transform="translate(-59.98 91.73) rotate(-60)"/>
+      <rect id="Major_tick-5" data-name="Major tick" class="cls-2" x="83.8" y="44.2" width="4.92" height="25.45" transform="translate(-16.99 61.57) rotate(-36)"/>
+      <rect id="Major_tick-6" data-name="Major tick" class="cls-2" x="134.05" y="21.83" width="4.92" height="25.45" transform="translate(-4.2 29.14) rotate(-12)"/>
+      <text class="cls-8" transform="translate(60.74 122.82) scale(.92 1)"><tspan x="0" y="0">8</tspan></text>
+      <text class="cls-11" transform="translate(87.3 90.36)"><tspan x="0" y="0">10</tspan></text>
+      <text class="cls-12" transform="translate(125.66 69.73)"><tspan x="0" y="0">12</tspan></text>
+      <text class="cls-10" transform="translate(173.85 69.69)"><tspan x="0" y="0">14</tspan></text>
+      <text class="cls-11" transform="translate(216.16 90.36)"><tspan x="0" y="0">16</tspan></text>
+      <text class="cls-9" transform="translate(240.74 122.82)"><tspan x="0" y="0">18</tspan></text>
+      <g id="Battery_icon" data-name="Battery icon">
+        <rect id="Battery_box" data-name="Battery box" class="cls-13" x="133.03" y="232.64" width="61.97" height="36.62"/>
+        <line id="Positive_" data-name="Positive |" class="cls-14" x1="183.28" y1="239.3" x2="183.28" y2="250.95"/>
+        <line id="Positive_-" data-name="Positive -" class="cls-14" x1="177.41" y1="245.13" x2="189.14" y2="245.13"/>
+        <line id="Negative" class="cls-14" x1="139.73" y1="245.13" x2="151.46" y2="245.13"/>
+        <rect id="Positive_terminal" data-name="Positive terminal" class="cls-5" x="177.41" y="225.98" width="11.72" height="4.99"/>
+        <rect id="Negative_terminal" data-name="Negative terminal" class="cls-5" x="139.73" y="225.98" width="11.72" height="4.99"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25 219">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #f9291b;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-668.64" y1="395.44" x2="-668.64" y2="237.08" gradientTransform="translate(681.14 -182.44)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f0c18"/>
+      <stop offset="0" stop-color="#22202c"/>
+      <stop offset="1" stop-color="#f9291b"/>
+    </linearGradient>
+  </defs>
+  <g id="Tachometer">
+    <g id="Needle_assembly" data-name="Needle assembly">
+      <g id="Needle">
+        <path class="cls-2" d="m16.5,3.92h0C16.44,1.75,14.68,0,12.5,0c-2.18,0-3.94,1.75-3.99,3.92h0S0,219,0,219h25S16.5,3.92,16.5,3.92Z"/>
+        <polygon class="cls-1" points="6.24 213 12.5 54.64 18.76 213 6.24 213"/>
+      </g>
+    </g>
+  </g>
+</svg>

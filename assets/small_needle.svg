@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18.69 126.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #f9291b;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-671.79" y1="305.32" x2="-671.79" y2="204.62" gradientTransform="translate(681.14 -182.44)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f0c18"/>
+      <stop offset=".25" stop-color="#451218"/>
+      <stop offset=".82" stop-color="#cc231a"/>
+      <stop offset="1" stop-color="#f9291b"/>
+    </linearGradient>
+  </defs>
+  <g id="Fuel">
+    <g id="Needle_assembly" data-name="Needle assembly">
+      <g id="Needle">
+        <path class="cls-2" d="m12.33,2.27h0C12.29,1.01,10.97,0,9.34,0c-1.63,0-2.95,1.01-2.98,2.27h0S0,126.89,0,126.89h18.69S12.33,2.27,12.33,2.27Z"/>
+        <polygon class="cls-1" points="4.21 122.89 9.34 22.18 14.48 122.89 4.21 122.89"/>
+      </g>
+    </g>
+  </g>
+</svg>
