@@ -1,9 +1,9 @@
 import QtQuick 2.15
-import QtQuick.Window 2.15
+import QtQuick.Controls 2.15
 import "."
 
 
-Window {
+ApplicationWindow {
 	id: mainWindow
 	title: "Instrument Panel"
 	visibility: Window.Maximized
