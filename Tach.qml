@@ -1,4 +1,4 @@
-import QtQuick 2.15
+import QtQuick
 
 
 Item {
@@ -27,8 +27,8 @@ Item {
 	Image {
 		id: tachNeedle
 		source: "assets/big_needle.svg"
-		width: 26
-		height: 220
+		width: 20
+		height: 190
 		anchors.bottom: tach.verticalCenter
 		anchors.horizontalCenter: tach.horizontalCenter
 		transformOrigin: Item.Bottom

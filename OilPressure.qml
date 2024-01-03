@@ -1,4 +1,4 @@
-import QtQuick 2.15
+import QtQuick
 
 
 Item {
@@ -18,8 +18,8 @@ Item {
 	Image {
 		id: oilPressure
 		source: "assets/oil_gauge.svg"
-		width: 330
-		height: 330
+		width: 380
+		height: 380
 		z: 0
 	}
 
@@ -27,8 +27,8 @@ Item {
 	Image {
 		id: oilPressureNeedle
 		source: "assets/small_needle.svg"
-		width: 20
-		height: 128
+		width: 16
+		height: 118
 		anchors.bottom: oilPressure.verticalCenter
 		anchors.horizontalCenter: oilPressure.horizontalCenter
 		transformOrigin: Item.Bottom
@@ -40,8 +40,8 @@ Item {
 	Image {
 		id: oilPressureNeedleCup
 		source: "assets/small_needle_cup.svg"
-		width: 82
-		height: 82
+		width: 62
+		height: 62
 		anchors.horizontalCenter: oilPressureNeedle.horizontalCenter
 		anchors.verticalCenter: oilPressureNeedle.bottom
 		rotation: oilPressureNeedle.rotation

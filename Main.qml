@@ -1,5 +1,5 @@
-import QtQuick 2.15
-import QtQuick.Controls 2.15
+import QtQuick
+import QtQuick.Controls
 import "."
 
 
@@ -15,7 +15,7 @@ ApplicationWindow {
 	// Background
 	Image {
 		id: background
-		source: "assets/background.png"
+		source: "assets/background.svg"
 		anchors.fill: parent
 	}
 
@@ -24,46 +24,46 @@ ApplicationWindow {
 	Speedo {
 		id: speedoGauge
 		x: 200
-		y: 350
+		y: 375
 	}
 
 	// Tachometer
 	Tach {
 		id: tachGauge
 		x: 1000
-		y: 350
+		y: 375
 	}
 
 	// Fuel
 	Fuel {
 		id: fuelGauge
 		x: 100
-		y: 30
+		y: 25
 	}
 
 	// Coolant Temp
 	CoolantTemp {
 		id: coolantTempGauge
 		x: 500
-		y: 30
+		y: 25
 	}
 
 	// Voltage
 	Voltage {
 		id: voltageGauge
 		x: 900
-		y: 30
+		y: 25
 	}
 
 	// Oil Pressure
 	OilPressure {
 		id: oilPressureGauge
 		x: 1290
-		y: 30
+		y: 25
 	}
 
 
-	////	Vertical Lines setup		////
+	////	Vertical Lines Setup		////
 	// Left Vertical Line
 	Rectangle {
 		id: verticalLineLeft
