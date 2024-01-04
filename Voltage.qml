@@ -11,7 +11,7 @@ Item {
 	Image {
 		id: voltage
 		source: "assets/volt_gauge.svg"
-		// fillMode: Image.PreserveAspectFit
+		fillMode: Image.PreserveAspectFit
 		z: 0
 	}
 

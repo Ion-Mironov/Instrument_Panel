@@ -11,7 +11,7 @@ Item {
 	Image {
 		id: tach
 		source: "assets/tach_gauge.svg"
-		// fillMode: Image.PreserveAspectFit
+		fillMode: Image.PreserveAspectFit
 		z: 0
 	}
 

@@ -11,7 +11,7 @@ Item {
 	Image {
 		id: fuel
 		source: "assets/fuel_gauge.svg"
-		// fillMode: Image.PreserveAspectFit
+		fillMode: Image.PreserveAspectFit
 		z: 0
 	}
 

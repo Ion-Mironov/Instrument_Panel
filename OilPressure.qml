@@ -11,7 +11,7 @@ Item {
 	Image {
 		id: oilPressure
 		source: "assets/oil_gauge.svg"
-		// fillMode: Image.PreserveAspectFit
+		fillMode: Image.PreserveAspectFit
 		z: 0
 	}
 

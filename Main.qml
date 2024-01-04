@@ -7,7 +7,7 @@ import "."
 ApplicationWindow {
 	id: mainWindow
 	title: "Instrument Panel"
-	visible: true
+	visibility: Window.Maximized
 	width: 1920
 	height: 1080
 
@@ -24,38 +24,50 @@ ApplicationWindow {
 
 		Fuel {
 			id: fuelGauge
-			Layout.fillHeight: true
-			Layout.fillWidth: true
+			Layout.column: 0
+			Layout.row: 0
+			// Layout.fillWidth: true
+			Layout.preferredHeight: 20
 		}
 
 		CoolantTemp {
 			id: coolantTempGauge
-			Layout.fillHeight: true
-			Layout.fillWidth: true
+			Layout.column: 1
+			Layout.row: 0
+			// Layout.fillWidth: true
+			Layout.preferredHeight: 20
 		}
 
 		Voltage {
 			id: voltageGauge
-			Layout.fillHeight: true
-			Layout.fillWidth: true
+			Layout.column: 2
+			Layout.row: 0
+			// Layout.fillWidth: true
+			Layout.preferredHeight: 20
 		}
 
 		OilPressure {
 			id: oilPressureGauge
-			Layout.fillHeight: true
-			Layout.fillWidth: true
+			Layout.column: 3
+			Layout.row: 0
+			// Layout.fillWidth: true
+			Layout.preferredHeight: 20
 		}
 
 		Speedo {
 			id: speedoGauge
-			Layout.fillHeight: true
-			Layout.fillWidth: true
+			Layout.column: 0
+			Layout.row: 1
+			// Layout.fillWidth: true
+			Layout.preferredHeight: 50
 		}
 
 		Tach {
 			id: tachGauge
-			Layout.fillHeight: true
-			Layout.fillWidth: true
+			Layout.column: 2
+			Layout.row: 1
+			// Layout.fillWidth: true
+			Layout.preferredHeight: 50
 		}
 	}
 

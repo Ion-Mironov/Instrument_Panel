@@ -11,7 +11,7 @@ Item {
 	Image {
 		id: coolantTemp
 		source: "assets/temp_gauge.svg"
-		// fillMode: Image.PreserveAspectFit
+		fillMode: Image.PreserveAspectFit
 		z: 0
 	}
 
