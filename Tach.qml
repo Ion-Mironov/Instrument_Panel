@@ -4,35 +4,26 @@ import QtQuick
 Item {
 
 	// Expose properties for external control
-	property alias gaugeOpacity: tach.opacity
-	property alias gaugeScale: tach.scale
-
-	property alias needleOpacity: tachNeedle.opacity
-	property alias needleScale: tachNeedle.scale
-	property alias needleRotation: tachNeedle.rotation
-
-	property alias needleCupScale: tachNeedleCup.scale
+	// property alias needleRotation: tachNeedle.rotation
 
 
 	// Gauge Face
 	Image {
 		id: tach
 		source: "assets/tach_gauge.svg"
-		width: 526
-		height: 526
+		// fillMode: Image.PreserveAspectFit
 		z: 0
 	}
 
-	// Needle
+/* 	// Needle
 	Image {
 		id: tachNeedle
 		source: "assets/big_needle.svg"
-		width: 20
-		height: 190
 		anchors.bottom: tach.verticalCenter
 		anchors.horizontalCenter: tach.horizontalCenter
 		transformOrigin: Item.Bottom
 		rotation: -120
+		// fillMode: Image.PreserveAspectFit
 		z: 1
 	}
 
@@ -40,11 +31,10 @@ Item {
 	Image {
 		id: tachNeedleCup
 		source: "assets/big_needle_cup.svg"
-		width: 86
-		height: 86
 		anchors.horizontalCenter: tachNeedle.horizontalCenter
 		anchors.verticalCenter: tachNeedle.bottom
 		rotation: tachNeedle.rotation
+		// fillMode: Image.PreserveAspectFit
 		z: 2
-	}
+	} */
 }

@@ -4,35 +4,26 @@ import QtQuick
 Item {
 
 	// Expose properties for external control
-	property alias gaugeOpacity: oilPressure.opacity
-	property alias gaugeScale: oilPressure.scale
-
-	property alias needleOpacity: oilPressureNeedle.opacity
-	property alias needleScale: oilPressureNeedle.scale
-	property alias needleRotation: oilPressureNeedle.rotation
-
-	property alias needleCupScale: oilPressureNeedle.scale
+	// property alias needleRotation: oilPressureNeedle.rotation
 
 
 	// Gauge Face
 	Image {
 		id: oilPressure
 		source: "assets/oil_gauge.svg"
-		width: 380
-		height: 380
+		// fillMode: Image.PreserveAspectFit
 		z: 0
 	}
 
-	// Needle
+/* 	// Needle
 	Image {
 		id: oilPressureNeedle
 		source: "assets/small_needle.svg"
-		width: 16
-		height: 118
 		anchors.bottom: oilPressure.verticalCenter
 		anchors.horizontalCenter: oilPressure.horizontalCenter
 		transformOrigin: Item.Bottom
 		rotation: -112
+		// fillMode: Image.PreserveAspectFit
 		z: 1
 	}
 
@@ -40,11 +31,10 @@ Item {
 	Image {
 		id: oilPressureNeedleCup
 		source: "assets/small_needle_cup.svg"
-		width: 62
-		height: 62
 		anchors.horizontalCenter: oilPressureNeedle.horizontalCenter
 		anchors.verticalCenter: oilPressureNeedle.bottom
 		rotation: oilPressureNeedle.rotation
+		// fillMode: Image.PreserveAspectFit
 		z: 2
-	}
+	} */
 }

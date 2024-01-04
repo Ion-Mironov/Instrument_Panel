@@ -4,35 +4,26 @@ import QtQuick
 Item {
 
 	// Expose properties for external control
-	property alias gaugeOpacity: speedo.opacity
-	property alias gaugeScale: speedo.scale
-
-	property alias needleOpacity: speedoNeedle.opacity
-	property alias needleScale: speedoNeedle.scale
-	property alias needleRotation: speedoNeedle.rotation
-
-	property alias needleCupScale: speedoNeedleCup.scale
+	// property alias needleRotation: speedoNeedle.rotation
 
 
 	// Gauge Face
 	Image {
 		id: speedo
 		source: "assets/speedo_gauge.svg"
-		width: 526
-		height: 526
+		fillMode: Image.PreserveAspectFit
 		z: 0
 	}
 
-	// Needle
+/* 	// Needle
 	Image {
 		id: speedoNeedle
 		source: "assets/big_needle.svg"
-		width: 20
-		height: 190
 		anchors.bottom: speedo.verticalCenter
 		anchors.horizontalCenter: speedo.horizontalCenter
 		transformOrigin: Item.Bottom
 		rotation: -135
+		fillMode: Image.PreserveAspectFit
 		z: 1
 	}
 
@@ -40,11 +31,10 @@ Item {
 	Image {
 		id: speedoNeedleCup
 		source: "assets/big_needle_cup.svg"
-		width: 86
-		height: 86
 		anchors.horizontalCenter: speedoNeedle.horizontalCenter
 		anchors.verticalCenter: speedoNeedle.bottom
 		rotation: speedoNeedle.rotation
+		fillMode: Image.PreserveAspectFit
 		z: 2
-	}
+	} */
 }
