@@ -1,18 +1,15 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-import "."
 
 
 ApplicationWindow {
-	id: mainWindow
 	title: "Instrument Panel"
 	visibility: Window.Maximized
 	width: 1920
 	height: 1080
 
 	Image {
-		id: background
 		source: "assets/background.svg"
 		anchors.fill: parent
 	}
@@ -20,217 +17,64 @@ ApplicationWindow {
 	GridLayout {
 		columns: 4
 		rows: 2
+		rowSpacing: 15
+		columnSpacing: 15
 		anchors.fill: parent
 
-		Fuel {
-			id: fuelGauge
+		Image {
 			Layout.column: 0
 			Layout.row: 0
-			// Layout.fillWidth: true
-			Layout.preferredHeight: 20
+			source: "assets/fuel_gauge.svg"
+			Layout.fillHeight: true
+			Layout.fillWidth: true
+			fillMode: Image.PreserveAspectFit
 		}
 
-		CoolantTemp {
-			id: coolantTempGauge
+		Image {
 			Layout.column: 1
 			Layout.row: 0
-			// Layout.fillWidth: true
-			Layout.preferredHeight: 20
+			source: "assets/temp_gauge.svg"
+			Layout.fillHeight: true
+			Layout.fillWidth: true
+			fillMode: Image.PreserveAspectFit
 		}
 
-		Voltage {
-			id: voltageGauge
+		Image {
 			Layout.column: 2
 			Layout.row: 0
-			// Layout.fillWidth: true
-			Layout.preferredHeight: 20
+			source: "assets/volt_gauge.svg"
+			Layout.fillHeight: true
+			Layout.fillWidth: true
+			fillMode: Image.PreserveAspectFit
 		}
 
-		OilPressure {
-			id: oilPressureGauge
+		Image {
 			Layout.column: 3
 			Layout.row: 0
-			// Layout.fillWidth: true
-			Layout.preferredHeight: 20
+			source: "assets/oil_gauge.svg"
+			Layout.fillHeight: true
+			Layout.fillWidth: true
+			fillMode: Image.PreserveAspectFit
 		}
 
-		Speedo {
-			id: speedoGauge
+		Image {
 			Layout.column: 0
+			Layout.columnSpan: 2
 			Layout.row: 1
-			// Layout.fillWidth: true
-			Layout.preferredHeight: 50
+			source: "assets/speedo_gauge.svg"
+			Layout.fillHeight: true
+			Layout.fillWidth: true
+			fillMode: Image.PreserveAspectFit
 		}
 
-		Tach {
-			id: tachGauge
+		Image {
 			Layout.column: 2
+			Layout.columnSpan: 2
 			Layout.row: 1
-			// Layout.fillWidth: true
-			Layout.preferredHeight: 50
+			source: "assets/tach_gauge.svg"
+			Layout.fillHeight: true
+			Layout.fillWidth: true
+			fillMode: Image.PreserveAspectFit
 		}
-	}
-
-/* 
-	// Animations for the needle sweeps
-	SequentialAnimation {
-		id: speedoSweep
-		loops: Animation.Infinite			// Loop the animation indefinitely for demo mode
-		NumberAnimation {
-			target: speedoGauge
-			property: "needleRotation"
-			from: -135
-			to: 135
-			duration: 2000					// How long it takes the needle to sweep to max value
-			easing.type: Easing.InOutQuad
-		}
-
-		PauseAnimation { duration: 250 }	// How long to stay at 'max' before sweeping back
-		NumberAnimation {
-			target: speedoGauge
-			property: "needleRotation"
-			from: 135
-			to: -135
-			duration: 2000					// How long it takes the needle to sweep back to min value
-			easing.type: Easing.InOutQuad
-		}
-		PauseAnimation { duration: 250 }	// How long to stay at 'min' before starting again
-	}
-
-	SequentialAnimation {
-		id: tachSweep
-		loops: Animation.Infinite
-		NumberAnimation {
-			target: tachGauge
-			property: "needleRotation"
-			from: -120
-			to: 120
-			duration: 2000	
-			easing.type: Easing.InOutQuad
-		}
-
-		PauseAnimation { duration: 250 }
-		NumberAnimation {
-			target: tachGauge
-			property: "needleRotation"
-			from: 120
-			to: -120
-			duration: 2000
-			easing.type: Easing.InOutQuad
-		}
-		PauseAnimation { duration: 250 }
-	}
-
-	SequentialAnimation {
-		id: fuelSweep
-		loops: Animation.Infinite
-		NumberAnimation {
-			target: fuelGauge
-			property: "needleRotation"
-			from: -90
-			to: 90
-			duration: 2000
-			easing.type: Easing.InOutQuad
-		}
-
-		PauseAnimation { duration: 250 }
-		NumberAnimation {
-			target: fuelGauge
-			property: "needleRotation"
-			from: 90
-			to: -90
-			duration: 2000
-			easing.type: Easing.InOutQuad
-		}
-		PauseAnimation { duration: 250 }
-	}
-
-	SequentialAnimation {
-		id: coolantTempSweep
-		loops: Animation.Infinite
-		NumberAnimation {
-			target: coolantTempGauge
-			property: "needleRotation"
-			from: -90
-			to: 90
-			duration: 2000
-			easing.type: Easing.InOutQuad
-		}
-
-		PauseAnimation { duration: 250 }
-		NumberAnimation {
-			target: coolantTempGauge
-			property: "needleRotation"
-			from: 90
-			to: -90
-			duration: 2000
-			easing.type: Easing.InOutQuad
-		}
-		PauseAnimation { duration: 250 }
-	}
-
-	SequentialAnimation {
-		id: voltageSweep
-		loops: Animation.Infinite
-		NumberAnimation {
-			target: voltageGauge
-			property: "needleRotation"
-			from: -60
-			to: 60
-			duration: 2000
-			easing.type: Easing.InOutQuad
-		}
-
-		PauseAnimation { duration: 250 }
-		NumberAnimation {
-			target: voltageGauge
-			property: "needleRotation"
-			from: 60
-			to: -60
-			duration: 2000
-			easing.type: Easing.InOutQuad
-		}
-		PauseAnimation { duration: 250 }
-	}
-
-	SequentialAnimation {
-		id: oilPressureSweep
-		loops: Animation.Infinite
-		NumberAnimation {
-			target: oilPressureGauge
-			property: "needleRotation"
-			from: -112
-			to: 112
-			duration: 2000
-			easing.type: Easing.InOutQuad
-		}
-
-		PauseAnimation { duration: 250 }
-		NumberAnimation {
-			target: oilPressureGauge
-			property: "needleRotation"
-			from: 112
-			to: -112
-			duration: 2000
-			easing.type: Easing.InOutQuad
-		}
-		PauseAnimation { duration: 250 }
-	}
-*/
-
-		Component.onCompleted: {
-		speedoGauge.visible = true;
-		tachGauge.visible = true;
-		fuelGauge.visible = true;
-		coolantTempGauge.visible = true;
-		voltageGauge.visible = true;
-		oilPressureGauge.visible = true;
-
-		// speedoSweep.start();
-		// tachSweep.start();
-		// fuelSweep.start();
-		// coolantTempSweep.start();
-		// voltageSweep.start();
-		// oilPressureSweep.start();
 	}
 }
