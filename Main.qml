@@ -10,7 +10,7 @@ ApplicationWindow {
 	height: 1080
 
 	Image {
-		source: "assets/background.svg"
+		source: "images/background.svg"
 		anchors.fill: parent
 	}
 
@@ -24,7 +24,7 @@ ApplicationWindow {
 		Image {
 			Layout.column: 0
 			Layout.row: 0
-			source: "assets/fuel_gauge.svg"
+			source: "images/fuel_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
 			fillMode: Image.PreserveAspectFit
@@ -33,7 +33,7 @@ ApplicationWindow {
 		Image {
 			Layout.column: 1
 			Layout.row: 0
-			source: "assets/temp_gauge.svg"
+			source: "images/temp_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
 			fillMode: Image.PreserveAspectFit
@@ -42,7 +42,7 @@ ApplicationWindow {
 		Image {
 			Layout.column: 2
 			Layout.row: 0
-			source: "assets/volt_gauge.svg"
+			source: "images/volt_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
 			fillMode: Image.PreserveAspectFit
@@ -51,7 +51,7 @@ ApplicationWindow {
 		Image {
 			Layout.column: 3
 			Layout.row: 0
-			source: "assets/oil_gauge.svg"
+			source: "images/oil_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
 			fillMode: Image.PreserveAspectFit
@@ -61,7 +61,7 @@ ApplicationWindow {
 			Layout.column: 0
 			Layout.columnSpan: 2
 			Layout.row: 1
-			source: "assets/speedo_gauge.svg"
+			source: "images/speedo_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
 			fillMode: Image.PreserveAspectFit
@@ -71,7 +71,7 @@ ApplicationWindow {
 			Layout.column: 2
 			Layout.columnSpan: 2
 			Layout.row: 1
-			source: "assets/tach_gauge.svg"
+			source: "images/tach_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
 			fillMode: Image.PreserveAspectFit
