@@ -24,36 +24,36 @@ ApplicationWindow {
 		Image {
 			Layout.column: 0
 			Layout.row: 0
-			source: "images/fuel_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
+			source: "images/fuel_gauge.svg"
 			fillMode: Image.PreserveAspectFit
 		}
 
 		Image {
 			Layout.column: 1
 			Layout.row: 0
-			source: "images/temp_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
+			source: "images/temp_gauge.svg"
 			fillMode: Image.PreserveAspectFit
 		}
 
 		Image {
 			Layout.column: 2
 			Layout.row: 0
-			source: "images/volt_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
+			source: "images/volt_gauge.svg"
 			fillMode: Image.PreserveAspectFit
 		}
 
 		Image {
 			Layout.column: 3
 			Layout.row: 0
-			source: "images/oil_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
+			source: "images/oil_gauge.svg"
 			fillMode: Image.PreserveAspectFit
 		}
 
@@ -61,9 +61,9 @@ ApplicationWindow {
 			Layout.column: 0
 			Layout.columnSpan: 2
 			Layout.row: 1
-			source: "images/speedo_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
+			source: "images/speedo_gauge.svg"
 			fillMode: Image.PreserveAspectFit
 		}
 
@@ -71,9 +71,9 @@ ApplicationWindow {
 			Layout.column: 2
 			Layout.columnSpan: 2
 			Layout.row: 1
-			source: "images/tach_gauge.svg"
 			Layout.fillHeight: true
 			Layout.fillWidth: true
+			source: "images/tach_gauge.svg"
 			fillMode: Image.PreserveAspectFit
 		}
 	}
