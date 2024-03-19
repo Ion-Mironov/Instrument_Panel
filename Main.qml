@@ -46,6 +46,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: fuel.horizontalCenter
 				anchors.bottom: fuel.verticalCenter
 				z: 1
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: fuelNeedle								// The target item to animate
+						from: fuelNeedle.rotation						// Start from defined rest position
+						to: 90											// Rotate to max position
+						duration: 2000									// Duration of the animation in milliseconds
+						easing.type: Easing.InOutQuad					// Easing type for a smooth animation
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: fuelNeedle
+						from: 90
+						to: fuelNeedle.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 
 			Image {
@@ -60,6 +86,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: fuelNeedle.horizontalCenter
 				anchors.verticalCenter: fuelNeedle.bottom
 				z: 2
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: fuelNeedleCup
+						from: fuelNeedleCup.rotation
+						to: 90
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: fuelNeedleCup
+						from: 90
+						to: fuelNeedleCup.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 		}
 
@@ -88,6 +140,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: coolantTemp.horizontalCenter
 				anchors.bottom: coolantTemp.verticalCenter
 				z: 1
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: coolantTempNeedle
+						from: coolantTempNeedle.rotation
+						to: 90
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: coolantTempNeedle
+						from: 90
+						to: coolantTempNeedle.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 
 			Image {
@@ -102,6 +180,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: coolantTempNeedle.horizontalCenter
 				anchors.verticalCenter: coolantTempNeedle.bottom
 				z: 2
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: coolantTempCup
+						from: coolantTempCup.rotation
+						to: 90
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: coolantTempCup
+						from: 90
+						to: coolantTempCup.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 		}
 
@@ -130,6 +234,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: voltage.horizontalCenter
 				anchors.bottom: voltage.verticalCenter
 				z: 1
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: voltageNeedle
+						from: voltageNeedle.rotation
+						to: 60
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: voltageNeedle
+						from: 60
+						to: voltageNeedle.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 
 			Image {
@@ -144,6 +274,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: voltageNeedle.horizontalCenter
 				anchors.verticalCenter: voltageNeedle.bottom
 				z: 2
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: voltageNeedleCup
+						from: voltageNeedleCup.rotation
+						to: 60
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: voltageNeedleCup
+						from: 60
+						to: voltageNeedleCup.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 		}
 
@@ -172,6 +328,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: oilPressure.horizontalCenter
 				anchors.bottom: oilPressure.verticalCenter
 				z: 1
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: oilPressureNeedle
+						from: oilPressureNeedle.rotation
+						to: 112.5
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: oilPressureNeedle
+						from: 112.5
+						to: oilPressureNeedle.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 
 			Image {
@@ -186,6 +368,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: oilPressureNeedle.horizontalCenter
 				anchors.verticalCenter: oilPressureNeedle.bottom
 				z: 2
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: oilPressureNeedleCup
+						from: oilPressureNeedleCup.rotation
+						to: 112.5
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: oilPressureNeedleCup
+						from: 112.5
+						to: oilPressureNeedleCup.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 		}
 
@@ -216,6 +424,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: speedo.horizontalCenter
 				anchors.bottom: speedo.verticalCenter
 				z: 1
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: speedoNeedle
+						from: speedoNeedle.rotation
+						to: 135.5
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: speedoNeedle
+						from: 135.5
+						to: speedoNeedle.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 
 			Image {
@@ -230,6 +464,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: speedoNeedle.horizontalCenter
 				anchors.verticalCenter: speedoNeedle.bottom
 				z: 2
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: speedoNeedleCup
+						from: speedoNeedleCup.rotation
+						to: 135.5
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: speedoNeedleCup
+						from: 135.5
+						to: speedoNeedleCup.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 		}
 
@@ -260,6 +520,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: tach.horizontalCenter
 				anchors.bottom: tach.verticalCenter
 				z: 1
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: tachNeedle
+						from: tachNeedle.rotation
+						to: 120
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: tachNeedle
+						from: 120
+						to: tachNeedle.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 
 			Image {
@@ -274,6 +560,32 @@ ApplicationWindow {
 				anchors.horizontalCenter: tachNeedle.horizontalCenter
 				anchors.verticalCenter: tachNeedle.bottom
 				z: 2
+
+				SequentialAnimation {
+					loops: Animation.Infinite
+
+					RotationAnimation {
+						target: tachNeedleCup
+						from: tachNeedleCup.rotation
+						to: 120
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					RotationAnimation {
+						target: tachNeedleCup
+						from: 120
+						to: tachNeedleCup.rotation
+						duration: 2000
+						easing.type: Easing.InOutQuad
+					}
+
+					PauseAnimation { duration: 250 }
+
+					running: true
+				}
 			}
 		}
 	}
