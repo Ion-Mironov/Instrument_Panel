@@ -17,8 +17,9 @@ ApplicationWindow {
 	GridLayout {
 		columns: 4
 		rows: 2
-		rowSpacing: 15
-		columnSpacing: 15
+		rowSpacing: 4
+		columnSpacing: 4
+		anchors.margins: 10
 		anchors.fill: parent
 
 
@@ -38,8 +39,8 @@ ApplicationWindow {
 				source: "images/small_needle.svg"
 				Layout.column: 0
 				Layout.row: 0
-				width: parent.width * 0.3
-				height: parent.height * 0.3
+				width: parent.width * 0.35
+				height: parent.height * 0.35
 				fillMode: Image.PreserveAspectFit
 				rotation: -90
 				transformOrigin: Item.Bottom
@@ -132,8 +133,8 @@ ApplicationWindow {
 				source: "images/small_needle.svg"
 				Layout.column: 1
 				Layout.row: 0
-				width: parent.width * 0.3
-				height: parent.height * 0.3
+				width: parent.width * 0.35
+				height: parent.height * 0.35
 				fillMode: Image.PreserveAspectFit
 				rotation: -90
 				transformOrigin: Item.Bottom
@@ -226,8 +227,8 @@ ApplicationWindow {
 				source: "images/small_needle.svg"
 				Layout.column: 2
 				Layout.row: 0
-				width: parent.width * 0.3
-				height: parent.height * 0.3
+				width: parent.width * 0.35
+				height: parent.height * 0.35
 				fillMode: Image.PreserveAspectFit
 				rotation: -60
 				transformOrigin: Item.Bottom
@@ -320,8 +321,8 @@ ApplicationWindow {
 				source: "images/small_needle.svg"
 				Layout.column: 3
 				Layout.row: 0
-				width: parent.width * 0.3
-				height: parent.height * 0.3
+				width: parent.width * 0.35
+				height: parent.height * 0.35
 				fillMode: Image.PreserveAspectFit
 				rotation: -112
 				transformOrigin: Item.Bottom
@@ -401,7 +402,7 @@ ApplicationWindow {
 		// === Speedometer =============================================================================== //
 		Image {
 			id: speedo
-			source: "images/speedo_gauge.svg"
+			source: "images/speedometer.svg"
 			Layout.column: 0
 			Layout.columnSpan: 2
 			Layout.row: 1
@@ -417,7 +418,7 @@ ApplicationWindow {
 				Layout.columnSpan: 2
 				Layout.row: 1
 				width: parent.width * 0.35
-				height: parent.height * 0.35
+				height: parent.height * 0.37
 				fillMode: Image.PreserveAspectFit
 				rotation: -134.5
 				transformOrigin: Item.Bottom
@@ -497,7 +498,7 @@ ApplicationWindow {
 		// === Tachometer ================================================================================ //
 		Image {
 			id: tach
-			source: "images/tach_gauge.svg"
+			source: "images/tachometer.svg"
 			Layout.column: 2
 			Layout.columnSpan: 2
 			Layout.row: 1
@@ -513,7 +514,7 @@ ApplicationWindow {
 				Layout.columnSpan: 2
 				Layout.row: 1
 				width: parent.width * 0.35
-				height: parent.height * 0.35
+				height: parent.height * 0.37
 				fillMode: Image.PreserveAspectFit
 				rotation: -119.5
 				transformOrigin: Item.Bottom

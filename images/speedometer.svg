@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 620 620">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 46.53px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11 {
+        fill: #fff;
+        font-family: Rockwell, Rockwell;
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-size: 32.66px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-13 {
+        fill: #00a8e9;
+      }
+
+      .cls-20 {
+        isolation: isolate;
+      }
+
+      .cls-14 {
+        mix-blend-mode: multiply;
+        opacity: .9;
+      }
+
+      .cls-3 {
+        font-size: 49.82px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        font-size: 47.84px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-15 {
+        opacity: .2;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5, .cls-9, .cls-11 {
+        font-size: 32.66px;
+      }
+
+      .cls-6 {
+        font-size: 46.92px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-16 {
+        fill: url(#Chrome_bezel);
+      }
+
+      .cls-7 {
+        font-size: 45.88px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-17 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8, .cls-10 {
+        font-size: 46.92px;
+      }
+
+      .cls-18 {
+        fill: #001735;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-19 {
+        fill: url(#Steel_Radial);
+      }
+
+      .cls-11 {
+        letter-spacing: -.02em;
+      }
+    </style>
+    <linearGradient id="Chrome_bezel" data-name="Chrome bezel" x1="10.69" y1="310" x2="609.31" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e2df"/>
+      <stop offset="0" stop-color="#d6d6d6"/>
+      <stop offset="0" stop-color="#d1d3d4"/>
+      <stop offset=".09" stop-color="#b6b7b8"/>
+      <stop offset=".18" stop-color="#999"/>
+      <stop offset=".26" stop-color="#adaeae"/>
+      <stop offset=".36" stop-color="#d1d3d4"/>
+      <stop offset=".51" stop-color="#858688"/>
+      <stop offset=".6" stop-color="#58595b"/>
+      <stop offset=".64" stop-color="#636466"/>
+      <stop offset=".76" stop-color="#808285"/>
+      <stop offset=".78" stop-color="#a1a3a5"/>
+      <stop offset=".8" stop-color="#c3c4c5"/>
+      <stop offset=".83" stop-color="#dddede"/>
+      <stop offset=".85" stop-color="#f0f0f0"/>
+      <stop offset=".87" stop-color="#fbfbfb"/>
+      <stop offset=".9" stop-color="#fff"/>
+      <stop offset=".91" stop-color="#eaeaeb"/>
+      <stop offset=".93" stop-color="#d0d1d3"/>
+      <stop offset=".96" stop-color="#bdbfc1"/>
+      <stop offset=".98" stop-color="#b2b4b7"/>
+      <stop offset="1" stop-color="#afb1b4"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="310.03" cy="310.02" fx="310.03" fy="310.02" r="267.24" gradientTransform="translate(-.03 -.02)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#22202c" stop-opacity="0"/>
+      <stop offset="1" stop-color="#04020e"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="310" y1="589.57" x2="310" y2="30.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e2df"/>
+      <stop offset="0" stop-color="#d6d6d6"/>
+      <stop offset="0" stop-color="#d1d3d4"/>
+      <stop offset=".09" stop-color="#b6b7b8"/>
+      <stop offset=".18" stop-color="#999"/>
+      <stop offset=".26" stop-color="#adaeae"/>
+      <stop offset=".36" stop-color="#d1d3d4"/>
+      <stop offset=".51" stop-color="#858688"/>
+      <stop offset=".6" stop-color="#58595b"/>
+      <stop offset=".64" stop-color="#636466"/>
+      <stop offset=".76" stop-color="#808285"/>
+      <stop offset=".78" stop-color="#a1a3a5"/>
+      <stop offset=".8" stop-color="#c3c4c5"/>
+      <stop offset=".83" stop-color="#dddede"/>
+      <stop offset=".85" stop-color="#f0f0f0"/>
+      <stop offset=".87" stop-color="#fbfbfb"/>
+      <stop offset=".9" stop-color="#fff"/>
+      <stop offset=".91" stop-color="#eaeaeb"/>
+      <stop offset=".93" stop-color="#d0d1d3"/>
+      <stop offset=".96" stop-color="#bdbfc1"/>
+      <stop offset=".98" stop-color="#b2b4b7"/>
+      <stop offset="1" stop-color="#afb1b4"/>
+    </linearGradient>
+    <radialGradient id="Steel_Radial" data-name="Steel Radial" cx="310" cy="310" fx="310" fy="310" r="264.22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e2df"/>
+      <stop offset="0" stop-color="#f1efed"/>
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".13" stop-color="#f0f0f0"/>
+      <stop offset=".37" stop-color="#c9cacb"/>
+      <stop offset=".52" stop-color="#adaeb0"/>
+      <stop offset=".6" stop-color="#a3a5a7"/>
+      <stop offset=".74" stop-color="#898d8f"/>
+      <stop offset=".91" stop-color="#5e6669"/>
+      <stop offset="1" stop-color="#465053"/>
+    </radialGradient>
+  </defs>
+  <g class="cls-20">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Speedometer">
+        <circle id="Gauge_recess" data-name="Gauge recess" class="cls-16" cx="310" cy="310" r="299.31"/>
+        <g id="Shadow">
+          <circle class="cls-14" cx="310" cy="310" r="310"/>
+        </g>
+        <g id="Face_front_w_glow" data-name="Face front w/glow">
+          <circle class="cls-18" cx="310" cy="310" r="267.24"/>
+          <circle class="cls-15" cx="310" cy="310" r="267.24"/>
+        </g>
+        <circle id="Face_inner_shade" data-name="Face inner shade" class="cls-17" cx="310" cy="310" r="267.24"/>
+        <g id="Outer_bezel" data-name="Outer bezel">
+          <path class="cls-12" d="M310,45.43c146.12,0,264.57,118.45,264.57,264.57,0,146.12-118.45,264.57-264.57,264.57-146.12,0-264.57-118.45-264.57-264.57,0-146.12,118.45-264.57,264.57-264.57M310,30.43s0,0,0,0h0c-37.74,0-74.35,7.39-108.82,21.98-33.29,14.08-63.19,34.24-88.86,59.91-25.67,25.67-45.83,55.57-59.91,88.86-14.58,34.48-21.98,71.09-21.98,108.83,0,37.73,7.39,74.35,21.98,108.82,14.08,33.29,34.24,63.19,59.91,88.86,25.67,25.67,55.57,45.83,88.86,59.91,34.47,14.58,71.09,21.98,108.82,21.98h0s0,0,0,0c37.74,0,74.35-7.39,108.83-21.98,33.29-14.08,63.19-34.24,88.86-59.91,25.67-25.67,45.83-55.57,59.91-88.86,14.58-34.48,21.98-71.09,21.98-108.83,0-37.73-7.39-74.35-21.98-108.82-14.08-33.29-34.24-63.19-59.91-88.86-25.67-25.67-55.57-45.83-88.86-59.91-34.47-14.58-71.09-21.98-108.82-21.98h0Z"/>
+        </g>
+        <g id="Inner_bezel" data-name="Inner bezel">
+          <path class="cls-19" d="M310,50.78c143.17,0,259.22,116.06,259.22,259.22,0,143.17-116.06,259.22-259.22,259.22-143.17,0-259.22-116.06-259.22-259.22,0-143.17,116.06-259.22,259.22-259.22M310,45.78s0,0,0,0c0,0,0,0,0,0h0c-35.67,0-70.27,6.99-102.85,20.77-31.46,13.31-59.72,32.36-83.99,56.62-24.26,24.26-43.32,52.52-56.62,83.99-13.78,32.58-20.77,67.18-20.77,102.85s6.99,70.27,20.77,102.85c13.31,31.46,32.36,59.72,56.63,83.99,24.27,24.26,52.52,43.32,83.99,56.63,32.58,13.78,67.18,20.77,102.84,20.77h0s0,0,0,0c35.67,0,70.27-6.99,102.85-20.77,31.46-13.31,59.72-32.36,83.99-56.62,24.26-24.26,43.32-52.52,56.62-83.99,13.78-32.58,20.77-67.18,20.77-102.85s-6.99-70.27-20.77-102.85c-13.31-31.46-32.36-59.72-56.63-83.99-24.27-24.26-52.52-43.32-83.99-56.63-32.58-13.78-67.18-20.77-102.84-20.77h0Z"/>
+        </g>
+        <g id="Ring_and_ticks" data-name="Ring and ticks">
+          <path id="Minor_ticks" data-name="Minor ticks" class="cls-13" d="M264.69,62.9l-5.25,1.02,4.49,23.09,5.25-1.02-4.49-23.09ZM173.58,99.05l-4.46,2.95,12.98,19.61,4.46-2.95-12.98-19.61ZM103.23,167.31l-2.99,4.43,19.5,13.15,2.99-4.43-19.5-13.15ZM500.26,435.11l-2.99,4.43,19.5,13.15,2.99-4.43-19.5-13.15ZM64.37,257.3l-1.07,5.24,23.05,4.69,1.07-5.24-23.05-4.69ZM533.65,352.78l-1.07,5.24,23.05,4.69,1.07-5.24-23.05-4.69ZM63.3,357.46l1.07,5.24,23.05-4.69-1.07-5.24-23.05,4.69ZM532.59,261.99l1.07,5.24,23.05-4.69-1.07-5.24-23.05,4.69ZM99.05,446.42l2.95,4.46,19.61-12.98-2.95-4.46-19.61,12.98ZM498.39,182.1l2.95,4.46,19.61-12.98-2.95-4.46-19.61,12.98ZM433.44,118.66l4.46,2.95,12.98-19.61-4.46-2.95-12.98,19.61ZM350.82,85.98l5.25,1.02,4.49-23.09-5.25-1.02-4.49,23.09ZM312.67,58.79h-5.34s0,23.52,0,23.52h5.34s0-23.52,0-23.52Z"/>
+          <path id="Major_ticks" data-name="Major ticks" class="cls-13" d="M404.23,71.06l7.9,3.27-17.33,41.85-7.9-3.27,17.33-41.85ZM125.57,488.1l6.05,6.05,32.03-32.03-6.05-6.05-32.03,32.03ZM456.36,157.31l6.05,6.05,32.03-32.03-6.05-6.05-32.03,32.03ZM71.34,403.94l3.27,7.9,41.85-17.33-3.27-7.9-41.85,17.33ZM503.54,224.92l3.27,7.9,41.85-17.33-3.27-7.9-41.85,17.33ZM53.45,305.44v8.55s45.3,0,45.3,0v-8.55s-45.3,0-45.3,0ZM521.26,305.44v8.55s45.3,0,45.3,0v-8.55s-45.3,0-45.3,0ZM74.61,207.59l-3.27,7.9,41.85,17.33,3.27-7.9-41.85-17.33ZM506.81,386.61l-3.27,7.9,41.85,17.33,3.27-7.9-41.85-17.33ZM131.61,125.28l-6.05,6.05,32.03,32.03,6.05-6.05-32.03-32.03ZM462.4,456.07l-6.05,6.05,32.03,32.03,6.05-6.05-32.03-32.03ZM215.77,71.06l-7.9,3.27,17.33,41.85,7.9-3.27-17.33-41.85ZM314.28,53.16h-8.55s0,45.3,0,45.3h8.55s0-45.3,0-45.3Z"/>
+          <path id="Ring" class="cls-13" d="M70.47,401.99c-10.43-27.11-16.22-56.06-16.94-85.86h5.35c.72,29.09,6.37,57.34,16.54,83.81l-4.94,2.05ZM127.89,482.75c-20.06-21.08-36.04-45.05-47.57-70.96l-4.94,2.05c11.79,26.55,28.17,51.11,48.73,72.69l3.78-3.78ZM205.87,75.09c-26.55,11.79-51.11,28.17-72.69,48.73l3.78,3.78c21.08-20.06,45.05-36.04,70.96-47.57l-2.05-4.94ZM80.32,207.64c11.52-25.91,27.51-49.88,47.57-70.96l-3.78-3.78c-20.56,21.59-36.94,46.15-48.73,72.69l4.94,2.05ZM303.59,53.24c-29.8.73-58.75,6.51-85.86,16.94l2.05,4.94c26.47-10.17,54.72-15.82,83.81-16.54v-5.35ZM58.87,303.3c.72-29.09,6.37-57.34,16.54-83.81l-4.94-2.05c-10.43,27.11-16.22,56.06-16.94,85.86h5.35ZM561.13,316.13c-.72,29.09-6.37,57.34-16.54,83.81l4.94,2.05c10.43-27.11,16.22-56.06,16.94-85.86h-5.35ZM539.68,411.79c-11.52,25.91-27.51,49.88-47.57,70.96l3.78,3.78c20.56-21.59,36.94-46.15,48.73-72.69l-4.94-2.05ZM544.59,219.49c10.17,26.47,15.82,54.72,16.54,83.81h5.35c-.73-29.8-6.51-58.75-16.94-85.86l-4.94,2.05ZM486.82,123.83c-21.59-20.56-46.15-36.94-72.69-48.73l-2.05,4.94c25.91,11.52,49.88,27.51,70.96,47.57l3.78-3.78ZM495.89,132.9l-3.78,3.78c20.06,21.08,36.04,45.05,47.57,70.96l4.94-2.05c-11.79-26.55-28.17-51.11-48.73-72.69ZM402.27,70.19c-27.11-10.43-56.06-16.22-85.86-16.94v5.35c29.09.72,57.34,6.37,83.81,16.54l2.05-4.94Z"/>
+        </g>
+        <g id="Text">
+          <text class="cls-3" transform="translate(261.38 485.51) scale(.93 1)"><tspan x="0" y="0">MPH</tspan></text>
+          <text class="cls-7" transform="translate(160.5 457.99)"><tspan x="0" y="0">0</tspan></text>
+          <text class="cls-5" transform="translate(117.59 399.41) scale(.94 1)"><tspan x="0" y="0">10</tspan></text>
+          <text class="cls-8" transform="translate(104.48 324.35) scale(.94 1)"><tspan x="0" y="0">20</tspan></text>
+          <text class="cls-11" transform="translate(118.65 243.35) scale(.94 1)"><tspan x="0" y="0">30</tspan></text>
+          <text class="cls-10" transform="translate(154.13 195.05) scale(.94 1)"><tspan x="0" y="0">40</tspan></text>
+          <text class="cls-5" transform="translate(214.86 142.86) scale(.94 1)"><tspan x="0" y="0">50</tspan></text>
+          <text class="cls-8" transform="translate(286.5 134.73) scale(.94 1)"><tspan x="0" y="0">60</tspan></text>
+          <text class="cls-11" transform="translate(373.07 142.86) scale(.94 1)"><tspan x="0" y="0">70</tspan></text>
+          <text class="cls-6" transform="translate(413.77 195.05) scale(.94 1)"><tspan x="0" y="0">80</tspan></text>
+          <text class="cls-2" transform="translate(468.21 243.35) scale(.94 1)"><tspan x="0" y="0">90</tspan></text>
+          <text class="cls-4" transform="translate(444.55 324.61) scale(.96 1)"><tspan x="0" y="0">100</tspan></text>
+          <text class="cls-9" transform="translate(449.72 399.41) scale(.96 1)"><tspan x="0" y="0">110</tspan></text>
+          <text class="cls-1" transform="translate(386.5 458.17) scale(.96 1)"><tspan x="0" y="0">120</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
