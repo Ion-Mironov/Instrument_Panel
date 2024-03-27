@@ -3,35 +3,31 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #001327;
+        isolation: isolate;
       }
 
-      .cls-1, .cls-2 {
+      .cls-2, .cls-3 {
         stroke-width: 0px;
       }
 
       .cls-3 {
-        isolation: isolate;
+        fill: #1a1a1a;
       }
 
       .cls-4 {
         mix-blend-mode: screen;
       }
-
-      .cls-2 {
-        fill: #001735;
-      }
     </style>
   </defs>
-  <g class="cls-3">
+  <g class="cls-1">
     <g id="Layer_2" data-name="Layer 2">
-      <g id="Speedometer">
+      <g id="Tachometer_black" data-name="Tachometer black">
         <g id="Needle_assembly" data-name="Needle assembly">
           <g id="Cup">
-            <circle class="cls-2" cx="45" cy="45" r="29.4"/>
+            <circle class="cls-3" cx="45" cy="45" r="29.4"/>
             <g>
               <image class="cls-4" width="90" height="90" xlink:href="data:image/png;base64,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"/>
-              <circle class="cls-1" cx="45" cy="45" r="14.4"/>
+              <circle class="cls-2" cx="45" cy="45" r="14.4"/>
             </g>
           </g>
         </g>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 36.55px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: #e6e6e6;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        font-family: Rockwell, Rockwell;
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-8, .cls-2, .cls-9, .cls-10, .cls-11 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        font-size: 38.79px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        fill: url(#Chrome_bezel);
+      }
+
+      .cls-4 {
+        font-size: 36.55px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        font-size: 36.55px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        font-size: 36.55px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        fill: url(#Steel_Radial);
+      }
+
+      .cls-7 {
+        font-size: 36.55px;
+        letter-spacing: -.02em;
+      }
+    </style>
+    <linearGradient id="Chrome_bezel" data-name="Chrome bezel" x1="0" y1="200" x2="400" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e2df"/>
+      <stop offset="0" stop-color="#d6d6d6"/>
+      <stop offset="0" stop-color="#d1d3d4"/>
+      <stop offset=".09" stop-color="#b6b7b8"/>
+      <stop offset=".18" stop-color="#999"/>
+      <stop offset=".26" stop-color="#adaeae"/>
+      <stop offset=".36" stop-color="#d1d3d4"/>
+      <stop offset=".51" stop-color="#858688"/>
+      <stop offset=".6" stop-color="#58595b"/>
+      <stop offset=".64" stop-color="#636466"/>
+      <stop offset=".76" stop-color="#808285"/>
+      <stop offset=".78" stop-color="#a1a3a5"/>
+      <stop offset=".8" stop-color="#c3c4c5"/>
+      <stop offset=".83" stop-color="#dddede"/>
+      <stop offset=".85" stop-color="#f0f0f0"/>
+      <stop offset=".87" stop-color="#fbfbfb"/>
+      <stop offset=".9" stop-color="#fff"/>
+      <stop offset=".91" stop-color="#eaeaeb"/>
+      <stop offset=".93" stop-color="#d0d1d3"/>
+      <stop offset=".96" stop-color="#bdbfc1"/>
+      <stop offset=".98" stop-color="#b2b4b7"/>
+      <stop offset="1" stop-color="#afb1b4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient" x1="200" y1="383.55" x2="200" y2="16.45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e2df"/>
+      <stop offset="0" stop-color="#d6d6d6"/>
+      <stop offset="0" stop-color="#d1d3d4"/>
+      <stop offset=".09" stop-color="#b6b7b8"/>
+      <stop offset=".18" stop-color="#999"/>
+      <stop offset=".26" stop-color="#adaeae"/>
+      <stop offset=".36" stop-color="#d1d3d4"/>
+      <stop offset=".51" stop-color="#858688"/>
+      <stop offset=".6" stop-color="#58595b"/>
+      <stop offset=".64" stop-color="#636466"/>
+      <stop offset=".76" stop-color="#808285"/>
+      <stop offset=".78" stop-color="#a1a3a5"/>
+      <stop offset=".8" stop-color="#c3c4c5"/>
+      <stop offset=".83" stop-color="#dddede"/>
+      <stop offset=".85" stop-color="#f0f0f0"/>
+      <stop offset=".87" stop-color="#fbfbfb"/>
+      <stop offset=".9" stop-color="#fff"/>
+      <stop offset=".91" stop-color="#eaeaeb"/>
+      <stop offset=".93" stop-color="#d0d1d3"/>
+      <stop offset=".96" stop-color="#bdbfc1"/>
+      <stop offset=".98" stop-color="#b2b4b7"/>
+      <stop offset="1" stop-color="#afb1b4"/>
+    </linearGradient>
+    <radialGradient id="Steel_Radial" data-name="Steel Radial" cx="200" cy="200" fx="200" fy="200" r="168.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e2df"/>
+      <stop offset="0" stop-color="#f1efed"/>
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".13" stop-color="#f0f0f0"/>
+      <stop offset=".37" stop-color="#c9cacb"/>
+      <stop offset=".52" stop-color="#adaeb0"/>
+      <stop offset=".6" stop-color="#a3a5a7"/>
+      <stop offset=".74" stop-color="#898d8f"/>
+      <stop offset=".91" stop-color="#5e6669"/>
+      <stop offset="1" stop-color="#465053"/>
+    </radialGradient>
+  </defs>
+  <g id="Voltage_black" data-name="Voltage black">
+    <circle id="Gauge_recess" data-name="Gauge recess" class="cls-10" cx="200" cy="200" r="200"/>
+    <circle id="Face_inner" data-name="Face inner" class="cls-9" cx="200" cy="200" r="165"/>
+    <g id="Outer_bezel" data-name="Outer bezel">
+      <path class="cls-8" d="M200,31.45c93.09,0,168.55,75.46,168.55,168.55,0,93.09-75.46,168.55-168.55,168.55-93.09,0-168.55-75.46-168.55-168.55,0-93.09,75.46-168.55,168.55-168.55M200,16.45s0,0,0,0h0c-24.77,0-48.81,4.86-71.45,14.43-21.86,9.25-41.49,22.48-58.34,39.33-16.85,16.85-30.09,36.48-39.33,58.34-9.58,22.64-14.43,46.68-14.43,71.45s4.86,48.81,14.43,71.45c9.25,21.86,22.48,41.49,39.33,58.34,16.85,16.85,36.48,30.09,58.34,39.33,22.64,9.58,46.68,14.43,71.45,14.43h0s0,0,0,0c24.77,0,48.81-4.86,71.45-14.43,21.86-9.25,41.49-22.48,58.34-39.33,16.85-16.85,30.09-36.48,39.33-58.34,9.58-22.64,14.43-46.68,14.43-71.45s-4.86-48.81-14.43-71.45c-9.25-21.86-22.48-41.49-39.33-58.34-16.85-16.85-36.48-30.09-58.34-39.33-22.64-9.58-46.68-14.43-71.45-14.43h0Z"/>
+    </g>
+    <g id="Inner_bezel" data-name="Inner bezel">
+      <path class="cls-11" d="M200,36.97c90.04,0,163.03,72.99,163.03,163.03,0,90.04-72.99,163.03-163.03,163.03-90.04,0-163.03-72.99-163.03-163.03,0-90.04,72.99-163.03,163.03-163.03M200,31.97s0,0,0,0h0,0c-44.88,0-87.08,17.48-118.81,49.21-31.74,31.74-49.21,73.93-49.21,118.81s17.48,87.07,49.22,118.81c31.74,31.74,73.93,49.21,118.81,49.22h0s0,0,0,0c44.88,0,87.08-17.48,118.81-49.21,31.74-31.74,49.21-73.93,49.21-118.81,0-44.88-17.48-87.07-49.22-118.81-31.74-31.74-73.93-49.21-118.81-49.22h0Z"/>
+    </g>
+    <g id="Ring_and_ticks" data-name="Ring and ticks">
+      <path id="Major_ticks" data-name="Major ticks" class="cls-2" d="M230.67,42.58l5.32,1.13-5.85,27.52-5.32-1.13,5.85-27.52ZM275.48,91.42l4.4,3.2,16.53-22.76-4.4-3.2-16.53,22.76ZM313.09,131.5l2.72,4.71,24.36-14.07-2.72-4.71-24.36,14.07ZM62.55,117.44l-2.72,4.71,24.36,14.07,2.72-4.71-24.36-14.07ZM107.98,68.66l-4.4,3.2,16.54,22.76,4.4-3.2-16.54-22.76ZM169.33,42.58l-5.32,1.13,5.85,27.52,5.32-1.13-5.85-27.52Z"/>
+      <path id="Ring" class="cls-2" d="M162.94,43.96c-3.56.85-7.1,1.81-10.58,2.89-4.98,1.55-9.93,3.37-14.73,5.4-4.76,2.02-9.48,4.29-14.02,6.76-4.51,2.45-8.96,5.16-13.22,8.04-.49.33-.98.68-1.47,1.02l1.95,2.68c.46-.32.92-.64,1.38-.96,4.17-2.82,8.53-5.47,12.95-7.88,4.45-2.42,9.06-4.65,13.73-6.62,4.7-1.99,9.55-3.77,14.42-5.29,3.38-1.05,6.82-1.99,10.28-2.81l-.69-3.24ZM102.74,72.57c-1.59,1.22-3.16,2.45-4.7,3.72-3.94,3.25-7.77,6.74-11.39,10.36s-7.1,7.45-10.36,11.39c-3.26,3.95-6.37,8.11-9.24,12.35-1.35,2-2.66,4.04-3.92,6.1l2.87,1.66c1.22-2,2.49-3.97,3.8-5.9,2.81-4.15,5.85-8.22,9.05-12.1,3.19-3.86,6.6-7.61,10.14-11.16,3.55-3.54,7.3-6.96,11.16-10.14,1.48-1.22,3-2.42,4.54-3.59l-1.95-2.68ZM287.75,69.8c.46.31.92.64,1.38.96l1.95-2.68c-.49-.34-.98-.69-1.47-1.02-4.26-2.88-8.71-5.59-13.22-8.04-4.54-2.47-9.26-4.75-14.02-6.76-4.8-2.03-9.75-3.85-14.73-5.4-3.48-1.08-7.02-2.04-10.58-2.89l-.69,3.24c3.46.82,6.9,1.76,10.28,2.81,4.87,1.52,9.72,3.3,14.42,5.29,4.66,1.97,9.28,4.2,13.73,6.62,4.42,2.4,8.78,5.05,12.95,7.88ZM330.2,112.25c1.31,1.93,2.57,3.91,3.8,5.9l2.87-1.66c-1.27-2.07-2.57-4.11-3.92-6.1-2.87-4.24-5.98-8.39-9.24-12.35-3.25-3.94-6.74-7.77-10.36-11.39s-7.45-7.1-11.39-10.36c-1.54-1.27-3.11-2.5-4.7-3.72l-1.95,2.68c1.53,1.18,3.05,2.37,4.54,3.59,3.86,3.19,7.61,6.6,11.16,10.14,3.54,3.55,6.96,7.3,10.14,11.16,3.2,3.87,6.24,7.94,9.05,12.1ZM229.58,42.37c-4.37-.82-8.8-1.47-13.21-1.92-10.82-1.1-21.93-1.1-32.75,0-4.41.45-8.84,1.1-13.21,1.92l.69,3.24c4.25-.79,8.56-1.42,12.86-1.86,10.59-1.08,21.48-1.08,32.07,0,4.29.44,8.6,1.07,12.86,1.86l.69-3.24Z"/>
+    </g>
+    <g id="Text_icon" data-name="Text &amp;amp; icon">
+      <text class="cls-3" transform="translate(87.5 157.98)"><tspan x="0" y="0">8</tspan></text>
+      <text class="cls-7" transform="translate(113.78 123.03) scale(.93 1)"><tspan x="0" y="0">10</tspan></text>
+      <text class="cls-4" transform="translate(155.78 98.71) scale(.93 1)"><tspan x="0" y="0">12</tspan></text>
+      <text class="cls-6" transform="translate(206.63 98.71) scale(.93 1)"><tspan x="0" y="0">14</tspan></text>
+      <text class="cls-5" transform="translate(248.62 123.03) scale(.93 1)"><tspan x="0" y="0">16</tspan></text>
+      <text class="cls-1" transform="translate(275 157.34) scale(.93 1)"><tspan x="0" y="0">18</tspan></text>
+      <image id="Battery_white" data-name="Battery white" width="381" height="252" transform="translate(158.11 263.29) scale(.22)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAX0AAAD8CAYAAACb4nSYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGlmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgOS4xLWMwMDEgNzkuMTQ2Mjg5OSwgMjAyMy8wNi8yNS0yMDowMTo1NSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI1LjEgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyNC0wMy0yNVQxNjoxNzo0NC0wNDowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNC0wMy0yNVQxNjoyNToxMC0wNDowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjQtMDMtMjVUMTY6MjU6MTAtMDQ6MDAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmU3ZjcwMmM5LWY1YjYtMjU0Ni04MDc2LWRiYjU4MmU0NmRlZCIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOmI0ZjFmMmU4LWMwYjktMWE0ZS1hNjQwLTYyZWEzNmE5YjI4NSIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjY3YjIyOWM5LWFiN2YtZWE0Zi04MGM0LTU3MmY3NDZkNjI4NSIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NjdiMjI5YzktYWI3Zi1lYTRmLTgwYzQtNTcyZjc0NmQ2Mjg1IiBzdEV2dDp3aGVuPSIyMDI0LTAzLTI1VDE2OjE3OjQ0LTA0OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjUuMSAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjIyZDQ5ZTZhLWIwY2ItOWE0NS1hOTY3LTNjZTI1MzQzNGUxMiIgc3RFdnQ6d2hlbj0iMjAyNC0wMy0yNVQxNjoyNDo1OC0wNDowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDI1LjEgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDplN2Y3MDJjOS1mNWI2LTI1NDYtODA3Ni1kYmI1ODJlNDZkZWQiIHN0RXZ0OndoZW49IjIwMjQtMDMtMjVUMTY6MjU6MTAtMDQ6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNS4xIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz705zK/AAAJb0lEQVR4nO3dT4tkVxnA4ffc7ukek0wCSlQEFyYLsxBFXLhwI4IgiHEhuAl+A10ouPYDCC5EF8ZP4R9QkKyCC4MYSBaKoOBCNyZqhjSZme66x0V3z9R0qqZ7Zu6/Ou/zwDBd1dX3nKru+tXtW7fvLbXWaExzd+ghlLj//pe5JkITPJcafA51c09gYJl/SCPcf4bjZ+lUc49Da9EHGMJ67FezzWIEot+wWuvX5p4DNKCpTjZ1Z3ifp+aeADvp9twTYDyi37Yn5p4Au+PN11778B9eeeW5uefBuPbnngAjqvXjUZrb+YCRPPn00zejwTcuB3Ay9wSGJPoNqxHPSz5X9dwLL9yKiFsRcRjiv66pTtq807BSyofmngM0oKl1J9FvWCnF2hqPws9Nw0S/bf+aewLspDtzT4DxiH7bDuaeALAsot+wWuvf554DsCyiD5CI6AMkIvoAiYg+QCKiD5CI6AMkIvoAiYg+QCKiD5CI6Lft+bknwE5y+I6GiT5wUVOHEuZ+ot+2v809AXaSQyvfr6nHQ/Tb9p+5J8Buuf3eey/NPYcF6ueewJBEv2GllB/PPQd2y/7Bwdtzz2GBmupkqbWp31yaujMDsX2Wh+V59H7NPI+ucsJfPwC7zfcPHt/582jTpp7+7N/+2scXPczZyB7lzGU3I+ITV7nhZWv6ggGwQ1ar1Rt7e3uf2fb5B0Vf8AF218ZNUtveoBB8gN1WN+2NtWlNX/AB2nJ3rf/imr7gAzRsPfqCD9Cmu33vLl4BQJNqxGn0BR8giab+vBiAB6qiD5CI6AMkIvoAiYg+QCKiD5CI6AMkIvoAiYg+QCKiD5CI6AMkIvoAiYg+QCKiD5CI6AMkIvoAiexPMcidW7dePLh+/VdTjAWwo2pEvBERnx5zkFJrneLMWeXymwCk92ZEfGrMAWzeAViIWuvR2GOIPsByvDv2ADbvACzLqE22pg+QiOgDJCL6AImIPkAiog+QiOgDJCL6AImIPkAiog+QiOgDJCL6AImIPkAiog+QiOgDJCL6AImIPkAiog+QiOgDJCL6AImIPkAiog+QiOgDJLI/9wSAfGqtb5VSnomI/dXt29+7+leWPrpyHBERfX8YXXe0d+3ay+PMsk2l1lqnGGeCMYDd8HZEfHDA5f0yIr4+4PLmNmqTbd4BpnZ94OV9dODlNU30ARIRfWBqT849gcxEH5ja0dwTyEz0ARIRfYBERB8gEdEHptbPPYHMRB8gEdEHSET0ARIRfYBERB8gEdEHWIha62/HHkP0gakN3Z2nBl7ebEopXxl7DNEHpvbEwMsb+lDNs7GmDzSn1vrPgZf3oyGX1zrRB6Y29GlavzDw8pom+sDUToZcWCmlpdOxDvrYbCL6wNQG7U6ttaXoj070gcnUWr9YSvnIkMtcHR93f3n11Y8Nucy5lFK+OvoYtdZRz7x+Ps4EY5yb4v7sCmtAPI77nkv98fEP6+nWlM+eXXW+KeL8qJl97fs/n39cuu6TERG178vewcGLERG11t+XUgbdBl9PTr5/57/vXO8OD07u/sR3XY2+L2cfr+J0Bbc/+z/KwcGXzr++nN6P/vx+1FqvlVJqRPxi79q1l4ec62VqrX8spXxuzDFEv22iz6N6LxraFfJR1Vq/XUr56YTj/WntRXUUNu8Am6QPfkRE1Dr0nkazE31gk//NPQHGIfoAy2GXTYAszt5AHpXoAyQi+gDL8fmxBxB9gEREHyAR0QdIRPQBEhF9gOV4fewBRB9gIaY4TLToAyyEP84CYFCiD7Acox5WOUL0AZbEG7nALPrLb5LBtOch8kYuMIta6zfnnsMilLg16XATvJHb4ukSI+6dMvGtiHg2It6JiGci4t/xkC90tday6dW367ohj3v9MHPatgZ2fg7QZ2utXy6l/O7xpwW7c/rR2vd/jVLePbt4lTNerT/vTs+Pu1r9IEopUWuNrrvddd1vBp/o5UZ9zFuNPrBcx3G1KF+q7/sotX6n7O39ZIjlLYToA+2otd4qpRwOvNiWGjNqk23TB6bmTeLt7L0DNEf0t3OOXKA5oj8j0QempjtbTPEeqwcfIBHRByY1xR8gsZ3oAyQi+gCJiD5AIqIPsByjN1n0ganpzow8+ACJiD4wNd2ZkQcfIBHRB1iOQc4z8CCiD5CI6AMkIvrApDadc5rpiD4wtdFPFMJ2o79pALCulLJav9yvVr+OWkuUUuP0t4Bb65/v9ve/cdkih55jy0QfmNoz6xe6vb255rE4Uxx22uYdgEREHyCRMsU5GcM2N4CrGrXJ1vQBluP1sQewpg+wLNb0AZIYfU1f9AESEX2AREQfIBHRB0hE9AESscsmwLLYZROAYYg+QCKiD5CI6AMkIvoAy+EwDABZTHHSeNEHSET0ARLxx1kAy+KPswAYhugDJCL6AImIPkAiog+QiOgDJCL6AMsx+mEY7KcPsCz20wdgGKIPkIjoAyQi+gCJiD5AIqIPsBx22QRIxi6bAAxD9AESEX2AREQfIBHRB0hE9AESEX2AREQfIBHRB0hE9AESEX2AREQfIBHRB0hE9AESEX2AREQfIBHRB0hE9AESEX2AREQfYCFqrS+NPYboAyxFrWXsIUQfYCGq6AMwJNEHSET0AZajH3sA0QdIRPQBlsOaPgDDEX2AREQfIBHRB0hE9AESEX2A5Ri9yaIPkIjoAyQi+gCJiD5AIqIPkIjoAyyHY+8AJGKXTQCGI/oAy3Ew9gCiD7AQpeuujz5GrbWOPcjtmze/e3Djxj/i3qvY+YtNf+FybLm8fttH1a39v/XFrvZ9FxfPSF/Kqta+lNKtLpnHA19E1890X0qp69evX37Q12+43ab5bLqu609O9rd9btt1ewcHdy6b1xWdP+59bP8e9Bduc9kcH9vx0dEH1i/vHR7eucr34gr6LR9HnN3H0nUltqh9X0rXXWke57etta7iio9Tv1rt3Tk6eqp03er8uvIIz7HzCZZS+rMPVuufLxH18MaNnz/scpes1vqtC1c96Ht9FX2ctvGJUsrP4t7DOopJog/AMti8A5CI6AMkIvoAiYg+QCKiD5CI6AMkIvoAiYg+QCKiD5CI6AMkIvoAiYg+QCKiD5CI6AMkIvoAiYg+QB6li4itZ+8BoC3W9AFyKBH3om9tH6BddxvfbboSgGbc1/aLm3eEH6Ad72v6pm36wg+w+za2fNsbucIPsLu2Nnz/Cl9Uh50LACO5dIX9/+Cw2rwlAs6jAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+</svg>

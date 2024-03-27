@@ -3,7 +3,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: url(#linear-gradient);
+        fill: url(#Orange_Fade);
       }
 
       .cls-1, .cls-2 {
@@ -11,14 +11,14 @@
       }
 
       .cls-2 {
-        fill: #f9291b;
+        fill: #f15a24;
       }
     </style>
-    <linearGradient id="linear-gradient" x1="-670.64" y1="318.81" x2="-670.64" y2="197.41" gradientTransform="translate(681.14 -182.44)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="Orange_Fade" data-name="Orange Fade" x1="-670.64" y1="318.81" x2="-670.64" y2="197.41" gradientTransform="translate(681.14 -182.44)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0f0c18"/>
-      <stop offset=".25" stop-color="#451218"/>
-      <stop offset=".82" stop-color="#cc231a"/>
-      <stop offset="1" stop-color="#f9291b"/>
+      <stop offset=".25" stop-color="#452c19"/>
+      <stop offset=".82" stop-color="#cc7c1c"/>
+      <stop offset="1" stop-color="#f8971d"/>
     </linearGradient>
   </defs>
   <g id="Fuel">

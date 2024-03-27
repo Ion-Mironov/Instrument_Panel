@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 234">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Red_Fade_2);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: red;
+      }
+    </style>
+    <linearGradient id="Red_Fade_2" data-name="Red Fade 2" x1="-668.14" y1="410.44" x2="-668.14" y2="234.57" gradientTransform="translate(681.14 -182.44)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f0c18"/>
+      <stop offset=".24" stop-color="#450912"/>
+      <stop offset=".8" stop-color="#cc0405"/>
+      <stop offset="1" stop-color="#ff0200"/>
+    </linearGradient>
+  </defs>
+  <g id="Tachometer_black" data-name="Tachometer black">
+    <g id="Needle_assembly" data-name="Needle assembly">
+      <g id="Needle">
+        <path class="cls-2" d="M17.16,4.18h0C17.1,1.87,15.27,0,13,0c-2.27,0-4.1,1.87-4.15,4.18h0S0,234,0,234h26S17.16,4.18,17.16,4.18Z"/>
+        <polygon class="cls-1" points="6.24 228 13 52.13 19.76 228 6.24 228"/>
+      </g>
+    </g>
+  </g>
+</svg>

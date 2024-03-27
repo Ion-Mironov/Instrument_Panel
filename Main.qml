@@ -9,6 +9,8 @@ ApplicationWindow {
 	width: 1920
 	height: 1080
 
+	property bool isTheme1: true					// Property to track the theme state
+
 	Image {
 		source: "images/background.svg"
 		anchors.fill: parent
@@ -19,14 +21,14 @@ ApplicationWindow {
 		rows: 2
 		rowSpacing: 4
 		columnSpacing: 4
-		anchors.margins: 10
+		anchors.margins: 30
 		anchors.fill: parent
 
 
-		// === Fuel Gauge ================================================================================= //
+		// === Fuel Gauge ========================================================================================================== //
 		Image {
 			id: fuel
-			source: "images/fuel_gauge.svg"
+			source: isTheme1 ? "images/fuel_gauge_black.svg" : "images/fuel_gauge_white.svg"		// Bind to the theme
 			Layout.column: 0
 			Layout.row: 0
 			Layout.fillHeight: true
@@ -36,7 +38,7 @@ ApplicationWindow {
 
 			Image {
 				id: fuelNeedle
-				source: "images/small_needle.svg"
+				source: isTheme1 ? "images/small_needle_red.svg" : "images/small_needle_orange.svg"
 				Layout.column: 0
 				Layout.row: 0
 				width: parent.width * 0.35
@@ -77,7 +79,7 @@ ApplicationWindow {
 
 			Image {
 				id: fuelNeedleCup
-				source: "images/small_needle_cup.svg"
+				source: isTheme1 ? "images/small_needle_cup_black.svg" : "images/small_needle_cup_grey"
 				Layout.column: 0
 				Layout.row: 0
 				width: parent.width * 0.2
@@ -117,10 +119,10 @@ ApplicationWindow {
 		}
 
 
-		// === Coolant Temp. Gauge ======================================================================= //
+		// === Coolant Temp. Gauge ================================================================================================= //
 		Image {
 			id: coolantTemp
-			source: "images/temp_gauge.svg"
+			source: isTheme1 ? "images/temp_gauge_black.svg" : "images/temp_gauge_white.svg"
 			Layout.column: 1
 			Layout.row: 0
 			Layout.fillHeight: true
@@ -130,7 +132,7 @@ ApplicationWindow {
 
 			Image {
 				id: coolantTempNeedle
-				source: "images/small_needle.svg"
+				source: isTheme1 ? "images/small_needle_red.svg" : "images/small_needle_orange.svg"
 				Layout.column: 1
 				Layout.row: 0
 				width: parent.width * 0.35
@@ -171,7 +173,7 @@ ApplicationWindow {
 
 			Image {
 				id: coolantTempCup
-				source: "images/small_needle_cup.svg"
+				source: isTheme1 ? "images/small_needle_cup_black.svg" : "images/small_needle_cup_grey"
 				Layout.column: 0
 				Layout.row: 0
 				width: parent.width * 0.2
@@ -211,10 +213,10 @@ ApplicationWindow {
 		}
 
 
-		// === Volt Gauge ================================================================================ //
+		// === Volt Gauge ========================================================================================================== //
 		Image {
 			id: voltage
-			source: "images/volt_gauge.svg"
+			source: isTheme1 ? "images/volt_gauge_black.svg" : "images/volt_gauge_white.svg"
 			Layout.column: 2
 			Layout.row: 0
 			Layout.fillHeight: true
@@ -224,7 +226,7 @@ ApplicationWindow {
 
 			Image {
 				id: voltageNeedle
-				source: "images/small_needle.svg"
+				source: isTheme1 ? "images/small_needle_red.svg" : "images/small_needle_orange.svg"
 				Layout.column: 2
 				Layout.row: 0
 				width: parent.width * 0.35
@@ -265,7 +267,7 @@ ApplicationWindow {
 
 			Image {
 				id: voltageNeedleCup
-				source: "images/small_needle_cup.svg"
+				source: isTheme1 ? "images/small_needle_cup_black.svg" : "images/small_needle_cup_grey"
 				Layout.column: 0
 				Layout.row: 0
 				width: parent.width * 0.2
@@ -305,10 +307,10 @@ ApplicationWindow {
 		}
 
 
-		// === Oil Pressure Gauge ======================================================================== //
+		// === Oil Pressure Gauge ================================================================================================== //
 		Image {
 			id: oilPressure
-			source: "images/oil_gauge.svg"
+			source: isTheme1 ? "images/oil_gauge_black.svg" : "images/oil_gauge_white.svg"
 			Layout.column: 3
 			Layout.row: 0
 			Layout.fillHeight: true
@@ -318,7 +320,7 @@ ApplicationWindow {
 
 			Image {
 				id: oilPressureNeedle
-				source: "images/small_needle.svg"
+				source: isTheme1 ? "images/small_needle_red.svg" : "images/small_needle_orange.svg"
 				Layout.column: 3
 				Layout.row: 0
 				width: parent.width * 0.35
@@ -359,7 +361,7 @@ ApplicationWindow {
 
 			Image {
 				id: oilPressureNeedleCup
-				source: "images/small_needle_cup.svg"
+				source: isTheme1 ? "images/small_needle_cup_black.svg" : "images/small_needle_cup_grey"
 				Layout.column: 0
 				Layout.row: 0
 				width: parent.width * 0.2
@@ -399,10 +401,10 @@ ApplicationWindow {
 		}
 
 
-		// === Speedometer =============================================================================== //
+		// === Speedometer ========================================================================================================= //
 		Image {
 			id: speedo
-			source: "images/speedometer.svg"
+			source: isTheme1 ? "images/speedometer_black.svg" : "images/speedometer_white.svg"
 			Layout.column: 0
 			Layout.columnSpan: 2
 			Layout.row: 1
@@ -413,7 +415,7 @@ ApplicationWindow {
 
 			Image {
 				id: speedoNeedle
-				source: "images/big_needle.svg"
+				source: isTheme1 ? "images/big_needle_red.svg" : "images/big_needle_orange.svg"
 				Layout.column: 0
 				Layout.columnSpan: 2
 				Layout.row: 1
@@ -455,9 +457,9 @@ ApplicationWindow {
 
 			Image {
 				id: speedoNeedleCup
-				source: "images/big_needle_cup.svg"
+				source: isTheme1 ? "images/big_needle_cup_black.svg" : "images/big_needle_cup_grey"
 				Layout.column: 0
-				Layout.row: 0
+				Layout.row: 1
 				width: parent.width * 0.15
 				height: parent.height * 0.15
 				fillMode: Image.PreserveAspectFit
@@ -495,10 +497,10 @@ ApplicationWindow {
 		}
 
 
-		// === Tachometer ================================================================================ //
+		// === Tachometer ========================================================================================================== //
 		Image {
 			id: tach
-			source: "images/tachometer.svg"
+			source: isTheme1 ? "images/tachometer_black.svg" : "images/tachometer_white.svg"
 			Layout.column: 2
 			Layout.columnSpan: 2
 			Layout.row: 1
@@ -509,8 +511,8 @@ ApplicationWindow {
 
 			Image {
 				id: tachNeedle
-				source: "images/big_needle.svg"
-				Layout.column: 0
+				source: isTheme1 ? "images/big_needle_red.svg" : "images/big_needle_orange.svg"
+				Layout.column: 2
 				Layout.columnSpan: 2
 				Layout.row: 1
 				width: parent.width * 0.35
@@ -551,9 +553,9 @@ ApplicationWindow {
 
 			Image {
 				id: tachNeedleCup
-				source: "images/big_needle_cup.svg"
-				Layout.column: 0
-				Layout.row: 0
+				source: isTheme1 ? "images/big_needle_cup_black.svg" : "images/big_needle_cup_grey"
+				Layout.column: 2
+				Layout.row: 1
 				width: parent.width * 0.15
 				height: parent.height * 0.15
 				fillMode: Image.PreserveAspectFit
@@ -588,6 +590,16 @@ ApplicationWindow {
 					running: true
 				}
 			}
+		}
+	}
+	Button {
+		text: isTheme1 ? "Switch to White Theme" : "Switch to Black Theme"
+		anchors.margins: 20
+		anchors.bottom: parent.bottom
+		anchors.horizontalCenter: parent.horizontalCenter
+
+		onClicked: {
+			isTheme1 = !isTheme1; // Toggle theme state
 		}
 	}
 }
